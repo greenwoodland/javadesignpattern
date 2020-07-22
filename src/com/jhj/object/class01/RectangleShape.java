@@ -28,6 +28,23 @@ public class RectangleShape {
 	 */
 	public RectangleShape() {}
 
+	
+	
+	/**
+	 * @param x
+	 * @param y
+	 * @param width
+	 * @param height
+	 */
+	public RectangleShape(int x, int y, int width, int height) {
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+	}
+
+
+
 	/**
 	 * @return the x
 	 */
