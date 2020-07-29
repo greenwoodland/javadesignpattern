@@ -35,8 +35,7 @@ public class Espresso implements ICoffee {
 
 	@Override
 	public void setName(String name) {
-		// TODO Auto-generated method stub
-
+		this.name = name;
 	}
 
 	@Override
